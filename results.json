@@ -1,7 +1,7 @@
 {
     "SEOComments": {
         "h1": "Ideally there should be 1 <h1> per page that matches SEO keywords/meta tags.",
-        "imageSize": "Images should be < 100kb to optimize how fast the page loads for SEO purposes.",
+        "imageSize": "Images should be < 100kb to optimize how fast the page loads for SEO purposes. Images over 100kb will be tagged with their size.",
         "imageAlt": "Images should have descriptive alt text that ideally matches the content on the page.",
         "contentLength": "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose."
     },
