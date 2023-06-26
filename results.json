@@ -7,8 +7,12 @@
     },
     "urls": {
         "https://relayhub.com/": {
+            "metaTags": {
+                "title": "Medicaid School Based Services & Workflow Solution | Relay",
+                "description": "Welcome to Relay Medicaid school-based services. We make it easy for schools to access Medicaid funding & automate their administrative processes!"
+            },
             "contentLength": 1806,
-            "h1": 13,
+            "h1Count": 13,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -22,8 +26,12 @@
             }
         },
         "https://relayhub.com/solutions/": {
+            "metaTags": {
+                "title": "Medicaid Software Solutions: Streamlined & Simplified | Relay",
+                "description": "Thousands of schools across the country trust Relay to be their partner & choose its school-based Medicaid solution - find out why!"
+            },
             "contentLength": 4753,
-            "h1": 17,
+            "h1Count": 17,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -46,8 +54,12 @@
             }
         },
         "https://relayhub.com/solutions/#services": {
+            "metaTags": {
+                "title": "Medicaid Software Solutions: Streamlined & Simplified | Relay",
+                "description": "Thousands of schools across the country trust Relay to be their partner & choose its school-based Medicaid solution - find out why!"
+            },
             "contentLength": 4753,
-            "h1": 17,
+            "h1Count": 17,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -70,8 +82,12 @@
             }
         },
         "https://relayhub.com/product-offering/": {
+            "metaTags": {
+                "title": "School-Based Medicaid Software Subscriptions | Relay",
+                "description": "At Relay, we offer different school-based Medicaid software subscription levels, so you can decide the right fit for your district! Explore more!"
+            },
             "contentLength": 2234,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -82,8 +98,12 @@
             }
         },
         "https://relayhub.com/your-district/": {
+            "metaTags": {
+                "title": "School-based Medicaid in your State - Find Your District | Relay",
+                "description": "School-based Medicaid workflows are different in each state & that is why you need Relay! We understand the nuances in your district - contact us!"
+            },
             "contentLength": 1349,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -94,8 +114,12 @@
             }
         },
         "https://relayhub.com/our-approach/": {
+            "metaTags": {
+                "title": "Our Approach | Relay",
+                "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
+            },
             "contentLength": 1347,
-            "h1": 8,
+            "h1Count": 8,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -112,8 +136,12 @@
             }
         },
         "https://relayhub.com/our-approach/#product-framework": {
+            "metaTags": {
+                "title": "Our Approach | Relay",
+                "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
+            },
             "contentLength": 1347,
-            "h1": 8,
+            "h1Count": 8,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -130,8 +158,12 @@
             }
         },
         "https://relayhub.com/our-approach/#guiding-principles": {
+            "metaTags": {
+                "title": "Our Approach | Relay",
+                "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
+            },
             "contentLength": 1347,
-            "h1": 8,
+            "h1Count": 8,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -148,8 +180,12 @@
             }
         },
         "https://relayhub.com/resource-hub/": {
+            "metaTags": {
+                "title": "Resource Hub | Relay",
+                "description": "See our resource hub - it provides you with additional resources to discover more about school Medicaid programs & provides tips to share with your team!"
+            },
             "contentLength": 1652,
-            "h1": 15,
+            "h1Count": 15,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -157,8 +193,12 @@
             }
         },
         "https://relayhub.com/category/blogs/": {
+            "metaTags": {
+                "title": "Blogs Archives | Relay",
+                "description": "Interested to know more about school-based Medicaid? Read our blogs and find the experts' experiences & advice that can be useful in the future!"
+            },
             "contentLength": 2080,
-            "h1": 19,
+            "h1Count": 19,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -166,8 +206,12 @@
             }
         },
         "https://relayhub.com/category/news/": {
+            "metaTags": {
+                "title": "News Archives | Relay",
+                "description": "Find interesting industry news and press releases, and stay in touch with the newest information in the field by reading our news archives!"
+            },
             "contentLength": 1145,
-            "h1": 14,
+            "h1Count": 14,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -175,8 +219,12 @@
             }
         },
         "https://relayhub.com/category/webinars/": {
+            "metaTags": {
+                "title": "Webinar Archives | Relay",
+                "description": "Explore our archive of on-demand webinars, and learn more about school-based Medicaid. Find expert advice, useful tips & more!"
+            },
             "contentLength": 583,
-            "h1": 12,
+            "h1Count": 12,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -184,8 +232,12 @@
             }
         },
         "https://relayhub.com/faqs/": {
+            "metaTags": {
+                "title": "FAQs",
+                "description": "Find common answers to your questions about school-based Medicaid, including billing and reimbursements, on our FAQ page."
+            },
             "contentLength": 6517,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -193,8 +245,12 @@
             }
         },
         "https://relayhub.com/get-a-demo/": {
+            "metaTags": {
+                "title": "Request a demo of our Medicaid workflow solution | Relay",
+                "description": "Request a demo of our Medicaid workflow solution & see the benefits of advanced school-based Medicaid billing & relieved administrative burdens in your district."
+            },
             "contentLength": 137,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -202,8 +258,12 @@
             }
         },
         "https://relayhub.com/category/blogs//": {
+            "metaTags": {
+                "title": "Blogs Archives | Relay",
+                "description": "Interested to know more about school-based Medicaid? Read our blogs and find the experts' experiences & advice that can be useful in the future!"
+            },
             "contentLength": 2080,
-            "h1": 19,
+            "h1Count": 19,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -211,8 +271,12 @@
             }
         },
         "https://relayhub.com/category/news//": {
+            "metaTags": {
+                "title": "News Archives | Relay",
+                "description": "Find interesting industry news and press releases, and stay in touch with the newest information in the field by reading our news archives!"
+            },
             "contentLength": 1145,
-            "h1": 14,
+            "h1Count": 14,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -220,8 +284,12 @@
             }
         },
         "https://relayhub.com/category/webinars//": {
+            "metaTags": {
+                "title": "Webinar Archives | Relay",
+                "description": "Explore our archive of on-demand webinars, and learn more about school-based Medicaid. Find expert advice, useful tips & more!"
+            },
             "contentLength": 583,
-            "h1": 12,
+            "h1Count": 12,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -229,8 +297,11 @@
             }
         },
         "https://relayhub.com/resources/": {
+            "metaTags": {
+                "title": "Page not found - Relay"
+            },
             "contentLength": 32,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -238,8 +309,12 @@
             }
         },
         "https://relayhub.com/compuclaim-is-now-relay/": {
+            "metaTags": {
+                "title": "CompuClaim is now Relay! | Relay",
+                "description": "CompuClaim is now Relay! We wanted a name that captured the many handoffs along the special services journey. Learn more about it!"
+            },
             "contentLength": 3045,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -250,8 +325,12 @@
             }
         },
         "https://relayhub.com/contact-us/": {
+            "metaTags": {
+                "title": "Contact Us | Relay",
+                "description": "We are here for you! Fill out the form below and let us know how we can assist. Someone will be in touch shortly."
+            },
             "contentLength": 123,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -259,8 +338,12 @@
             }
         },
         "https://relayhub.com/support/": {
+            "metaTags": {
+                "title": "Support | Relay",
+                "description": "Let’s start a conversation! Fill out the form with a brief description of your issue & our tech support team will reach out to assist you as soon as possible!"
+            },
             "contentLength": 54,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -268,8 +351,12 @@
             }
         },
         "https://relayhub.com/your-district/#choose": {
+            "metaTags": {
+                "title": "School-based Medicaid in your State - Find Your District | Relay",
+                "description": "School-based Medicaid workflows are different in each state & that is why you need Relay! We understand the nuances in your district - contact us!"
+            },
             "contentLength": 1349,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -280,8 +367,12 @@
             }
         },
         "https://relayhub.com/category/webinars": {
+            "metaTags": {
+                "title": "Webinar Archives | Relay",
+                "description": "Explore our archive of on-demand webinars, and learn more about school-based Medicaid. Find expert advice, useful tips & more!"
+            },
             "contentLength": 583,
-            "h1": 12,
+            "h1Count": 12,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -289,8 +380,12 @@
             }
         },
         "https://relayhub.com/about/": {
+            "metaTags": {
+                "title": "About Us | Relay",
+                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
+            },
             "contentLength": 2403,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -316,8 +411,12 @@
             }
         },
         "https://relayhub.com/about/#story": {
+            "metaTags": {
+                "title": "About Us | Relay",
+                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
+            },
             "contentLength": 2403,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -343,8 +442,12 @@
             }
         },
         "https://relayhub.com/about/#partners": {
+            "metaTags": {
+                "title": "About Us | Relay",
+                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
+            },
             "contentLength": 2403,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -370,8 +473,12 @@
             }
         },
         "https://relayhub.com/about/#careers": {
+            "metaTags": {
+                "title": "About Us | Relay",
+                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
+            },
             "contentLength": 2403,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -397,8 +504,12 @@
             }
         },
         "https://relayhub.com/privacy-policy/": {
+            "metaTags": {
+                "title": "Privacy Policy | Relay",
+                "description": "Privacy Policy describes how Relay treats personal information that we obtain through the website and our software."
+            },
             "contentLength": 3785,
-            "h1": 15,
+            "h1Count": 15,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -406,8 +517,12 @@
             }
         },
         "https://relayhub.com/product-offering/#supported-billing": {
+            "metaTags": {
+                "title": "School-Based Medicaid Software Subscriptions | Relay",
+                "description": "At Relay, we offer different school-based Medicaid software subscription levels, so you can decide the right fit for your district! Explore more!"
+            },
             "contentLength": 2234,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -418,8 +533,12 @@
             }
         },
         "https://relayhub.com/product-offering/#platform-subscription": {
+            "metaTags": {
+                "title": "School-Based Medicaid Software Subscriptions | Relay",
+                "description": "At Relay, we offer different school-based Medicaid software subscription levels, so you can decide the right fit for your district! Explore more!"
+            },
             "contentLength": 2234,
-            "h1": 7,
+            "h1Count": 7,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -430,8 +549,12 @@
             }
         },
         "https://relayhub.com/5-signs-its-time-to-switch-your-medicaid-vendor/": {
+            "metaTags": {
+                "title": "5 Signs It’s Time to Switch Your Medicaid Vendor | Relay",
+                "description": "Connecting students to the right services at the right time is critical. Learn to recognize signs when it is time to switch Medicaid vendors by reading our article."
+            },
             "contentLength": 4948,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -445,8 +568,12 @@
             }
         },
         "https://relayhub.com/how-to-increase-service-logging-for-school-based-medicaid-webinar/": {
+            "metaTags": {
+                "title": "Webinar: Increase Service Provider Logging in School Medicaid | Relay",
+                "description": "Enhance your School Based Medicaid Workflows and streamline your provider service logging in your Medicaid program with our webinar."
+            },
             "contentLength": 518,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -457,8 +584,12 @@
             }
         },
         "https://relayhub.com/embracing-technology-in-school-based-medicaid-workflows/": {
+            "metaTags": {
+                "title": "Top 7 Reasons for a New School Medicaid Billing Approach",
+                "description": "This time of year is THE best time to start evaluating your current school Medicaid billing and seeing if it’s time to for a new approach."
+            },
             "contentLength": 4577,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -472,8 +603,12 @@
             }
         },
         "https://relayhub.com/school-medicaid-billing-headaches-why-school-districts-need-to-rethink-their-approach/": {
+            "metaTags": {
+                "title": "Top 7 Reasons for a New School Medicaid Billing Approach",
+                "description": "This time of year is THE best time to start evaluating your current school Medicaid billing and seeing if it’s time to for a new approach."
+            },
             "contentLength": 7166,
-            "h1": 11,
+            "h1Count": 11,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -487,8 +622,12 @@
             }
         },
         "https://relayhub.com/7-school-medicaid-inefficiencies-and-how-to-eliminate-them/": {
+            "metaTags": {
+                "title": "7 Common School Medicaid Billing Time-wasters",
+                "description": "School Medicaid billing takes significant administrative resources and expertise. We identify common time-wasters districts face in their programs, and tips for optimizing."
+            },
             "contentLength": 4313,
-            "h1": 17,
+            "h1Count": 17,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -496,14 +635,18 @@
                 "https://relayhub.com/wp-content/uploads/2023/03/shutterstock_88288024-1.jpg": {
                     "alt": "Save Time on School Medicaid Billing",
                     "over100kb": {
-                        "size": "621 KB"
+                        "size": "575 KB"
                     }
                 }
             }
         },
         "https://relayhub.com/school-medicaid-coverage-and-billing-by-state/": {
+            "metaTags": {
+                "title": "School Medicaid Billing By State",
+                "description": "Find out the coverage, eligibility, and billing providers for school Medicaid in each state and increase your Medicaid IQ."
+            },
             "contentLength": 3207,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -511,7 +654,7 @@
                 "https://relayhub.com/wp-content/uploads/2022/12/shutterstock_258017072-scaled.jpg": {
                     "alt": "",
                     "over100kb": {
-                        "size": "423 KB"
+                        "size": "430 KB"
                     }
                 },
                 "https://relayhub.com/wp-content/uploads/2023/01/Iowa-Medicaid-Coverage-Example.png": {
@@ -532,8 +675,12 @@
             }
         },
         "https://relayhub.com/school-medicaid-is-complexbut-hope-is-on-the-horizon/": {
+            "metaTags": {
+                "title": "School Medicaid Is Complex…But Hope Is on the Horizon",
+                "description": "With staff shortages and high caseloads, the session provided tips to optimizing your school Medicaid program. Here are the highlights."
+            },
             "contentLength": 1255,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -556,8 +703,12 @@
             }
         },
         "https://relayhub.com/school-based-medicaid-3-ways-to-create-a-partnered-approach-between-service-providers-and-districts/": {
+            "metaTags": {
+                "title": "3 Ways to Create a Partnered Approach Between Service Providers & Districts | Relay",
+                "description": "In this article, we present 3 ways to create a partnered approach between service providers and districts - read it & advance your school Medicaid!"
+            },
             "contentLength": 4527,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -571,8 +722,12 @@
             }
         },
         "https://relayhub.com/our-top-5-resources-for-special-education-administrators/": {
+            "metaTags": {
+                "title": "Our Top 5 Resources for Special Education Administrators | Relay",
+                "description": "Explore our top 5 resources for special education administrators to stay on top of best practices, and learn about current events & legislation in your field!"
+            },
             "contentLength": 1671,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -583,8 +738,12 @@
             }
         },
         "https://relayhub.com/mental-health-and-school-based-medicaid/": {
+            "metaTags": {
+                "title": "Mental Health and School-Based Medicaid | Relay",
+                "description": "Many school districts don't recognize the correlation between mental health and school-based Medicaid - read our article to learn the importance behind it."
+            },
             "contentLength": 4646,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -595,8 +754,12 @@
             }
         },
         "https://relayhub.com/increase-your-school-based-medicaid-iq-in-3-easy-steps/": {
+            "metaTags": {
+                "title": "Increase Your School-Based Medicaid IQ in 3 Easy Steps | Relay",
+                "description": "This is the perfect time for your team to learn something new! Read the article & find out how to increase your school-based Medicaid IQ in 3 easy steps."
+            },
             "contentLength": 4501,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -613,8 +776,12 @@
             }
         },
         "https://relayhub.com/how-to-manage-medicaid-administrator-transitions/": {
+            "metaTags": {
+                "title": "How to Manage Medicaid Administrator Transitions | Relay",
+                "description": "Read our article and learn how to manage Medicaid administrator transitions streamlined & simplified, following our advice!"
+            },
             "contentLength": 4566,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -625,8 +792,12 @@
             }
         },
         "https://relayhub.com/the-basics-of-billing-medicaid-for-school-based-services/": {
+            "metaTags": {
+                "title": "The Basics of Billing Medicaid for School-Based Services | Relay",
+                "description": "Explore the basics of billing Medicaid for School-Based services! Discover how we can help your school make the most of your Medicaid opportunities!"
+            },
             "contentLength": 5339,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -637,8 +808,12 @@
             }
         },
         "https://relayhub.com/category/blogs/page/2/": {
+            "metaTags": {
+                "title": "Blogs Archives | Relay",
+                "description": "Interested to know more about school-based Medicaid? Read our blogs and find the experts' experiences & advice that can be useful in the future!"
+            },
             "contentLength": 634,
-            "h1": 12,
+            "h1Count": 12,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -646,8 +821,12 @@
             }
         },
         "https://relayhub.com/compuclaim-announces-achievement-of-nist-ncsp-practitioner-certification/": {
+            "metaTags": {
+                "title": "Our Achievement of NIST NCSP Practitioner Certification | Relay",
+                "description": "CompuClaim announces achievement of NIST NCSP Practitioner Certification - read more to find out why this is important for our company!"
+            },
             "contentLength": 1402,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -658,8 +837,12 @@
             }
         },
         "https://relayhub.com/compuclaim-and-the-texas-association-of-school-boards-announce-release-of-tasb-smart-solutionstm-powered-by-compuclaim/": {
+            "metaTags": {
+                "title": "TASB SMART SolutionsTM powered by CompuClaim | Relay",
+                "description": "CompuClaim and the Texas Association of School Boards Announce the Release of TASB SMART SolutionsTM powered by CompuClaim - learn more!"
+            },
             "contentLength": 1131,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -670,8 +853,12 @@
             }
         },
         "https://relayhub.com/new-joint-partnership-from-compuclaim-greenbush-and-lumen-touch-delivers-all-in-one-special-education-management-solution/": {
+            "metaTags": {
+                "title": "All In One Special Education Management Solution | Relay",
+                "description": "We proudly present a new joint partnership from CompuClaim, Greenbush & Lumen Touch. Explore all-In-one special education management solutions!"
+            },
             "contentLength": 934,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -679,14 +866,18 @@
                 "https://relayhub.com/wp-content/uploads/2021/02/Kids-Playing-800x675-1.jpg": {
                     "alt": "Kids playing",
                     "over100kb": {
-                        "size": "107 KB"
+                        "size": "113 KB"
                     }
                 }
             }
         },
         "https://relayhub.com/webinar-content-medicaid-101/": {
+            "metaTags": {
+                "title": "Webinar: Medicaid 101 | Relay",
+                "description": "Understand the basics and benefits of documenting and billing for Medicaid in a school district and many more in our Webinar: Medicaid 101!"
+            },
             "contentLength": 295,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -700,8 +891,12 @@
             }
         },
         "https://relayhub.com/webinar-content-student-privacy/": {
+            "metaTags": {
+                "title": "Webinar: Student Privacy | Relay",
+                "description": "Our webinar will teach you to protect your district from costly data breaches & make sure you know the best practices for student data privacy."
+            },
             "contentLength": 336,
-            "h1": 10,
+            "h1Count": 10,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -715,8 +910,12 @@
             }
         },
         "https://relayhub.com": {
+            "metaTags": {
+                "title": "Medicaid School Based Services & Workflow Solution | Relay",
+                "description": "Welcome to Relay Medicaid school-based services. We make it easy for schools to access Medicaid funding & automate their administrative processes!"
+            },
             "contentLength": 1806,
-            "h1": 13,
+            "h1Count": 13,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -730,8 +929,12 @@
             }
         },
         "https://relayhub.com/managing-the-exponential-growth-of-data-in-your-organization/": {
+            "metaTags": {
+                "title": "Managing the exponential growth of data in organization | Relay",
+                "description": "Managing the growth of data in your organization is crucial for steady development. Read how we can help you convert the data to actionable information!"
+            },
             "contentLength": 2593,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
@@ -745,8 +948,12 @@
             }
         },
         "https://landingpage.relayhub.com/en/en/beginners-guide-to-medicaid-data": {
+            "metaTags": {
+                "title": "Webinar: How to Ditch the Tedious Data Entry in Your Medicaid Program",
+                "description": "Join Medicaid experts from Relay to examine and evaluate your Medicaid data to save your team time. "
+            },
             "contentLength": 987,
-            "h1": 1,
+            "h1Count": 1,
             "images": {
                 "https://252158.fs1.hubspotusercontent-na1.net/hub/252158/hubfs/Relay_primary_on_white_web.png?width=234&name=Relay_primary_on_white_web.png": {
                     "alt": "Relay_primary_on_white_web"
@@ -755,8 +962,12 @@
             }
         },
         "https://landingpage.relayhub.com/webinar-medicaidevaluation": {
+            "metaTags": {
+                "title": "Webinar: Navigating to a New Medicaid Approach in Your School District",
+                "description": "Join Medicaid experts from CompuClaim to examine and evaluate your Medicaid operations to save your team time. "
+            },
             "contentLength": 854,
-            "h1": 1,
+            "h1Count": 1,
             "images": {
                 "https://252158.fs1.hubspotusercontent-na1.net/hub/252158/hubfs/Relay_primary_on_white_web.png?width=234&name=Relay_primary_on_white_web.png": {
                     "alt": "Relay_primary_on_white_web"
@@ -765,8 +976,12 @@
             }
         },
         "https://relayhub.com/the-impact-of-covid-19-and-medicaid-what-weve-learned/": {
+            "metaTags": {
+                "title": "The Impact of COVID-19 & Medicaid: What We’ve Learned | Relay",
+                "description": "The punches from the COVID-19 pandemic keep on coming for school districts across the country. Learn what we’ve learned by reading this article."
+            },
             "contentLength": 3779,
-            "h1": 9,
+            "h1Count": 9,
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"

@@ -23,6 +23,9 @@ const scrapeByUrl = async (memo, index) => {
             }
         });
 
+        let metas = await getMeta(url);
+        memo.urls[url]['metaTags'] = metas;
+
         let contentLength = await getContentLength(url);
         memo.urls[url]['contentLength'] = contentLength;
 
@@ -109,6 +112,24 @@ const getSize = async (url) => {
     return size;
 };
 
+const getMeta = async (url) => {
+    let response = await fetch(url);
+    let body = await response.text();
+    let $ = cheerio.load(body);
+
+    let title, description;
+    $('meta').map((i, el) => {
+        if (el.attribs.name === 'description') {
+            description = el.attribs.content;
+        }
+        if (el.attribs.property === 'og:title') {
+            title = el.attribs.content;
+        }       
+    })
+    console.log(title, description);
+    return { title: title, description: description };
+}
+
 app.get('/', (req, res) => {
     res.json({ status: "Server is working" });
 })
@@ -139,9 +160,9 @@ app.get('/image', async (req, res) => {
     }
 });
 
-app.get('/length', async (req, res) => {
+app.get('/test', async (req, res) => {
     try {
-        let result = await getContentLength('https://relayhub.com/');
+        let result = await getMeta('https://relayhub.com/');
         console.log(result);
         res.json(result);
     } catch (error) {
