@@ -18,7 +18,7 @@ const scrapeByUrl = async (memo, index) => {
     
         $('a').map((i, el) => {
             let link = $(el).attr('href');
-            if (!array.includes(link) && link !== undefined && link !== '#' && (link.includes('https://relayhub.com') || link.includes('https://landingpage.relayhub.com'))) {
+            if (!array.includes(link) && link !== undefined && !link.includes('#') && (link.includes('https://relayhub.com') || link.includes('https://landingpage.relayhub.com'))) {
                 memo.urls[link] = {};
             }
         });
@@ -82,7 +82,7 @@ const getImage = async (url) => {
     let $ = cheerio.load(body);
     let obj = {};
 
-    await Promise.all($('img').map( async (i, el) => {
+    await Promise.allSettled($('img').map( async (i, el) => {
         let imgUrl = $(el).attr('src');
         let imgAlt = $(el).attr('alt');
         console.log(imgAlt);
@@ -138,7 +138,7 @@ app.get('/scrape', async (req, res) => {
     try {
         let memo = { SEOComments: {}, urls: { 'https://relayhub.com/' : {} } };
         memo['SEOComments'] = {
-            h1: "Ideally there should be 1 <h1> per page that matches SEO keywords/meta tags.",
+            h1: "Ideally there should be one <h1> per page that matches SEO keywords/meta tags.",
             imageSize: "Images should be < 100kb to optimize how fast the page loads for SEO purposes. Images over 100kb will be tagged with their size.",
             imageAlt: "Images should have descriptive alt text that ideally matches the content on the page.",
             contentLength: "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose."

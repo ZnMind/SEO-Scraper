@@ -1,6 +1,6 @@
 {
     "SEOComments": {
-        "h1": "Ideally there should be 1 <h1> per page that matches SEO keywords/meta tags.",
+        "h1": "Ideally there should be one <h1> per page that matches SEO keywords/meta tags.",
         "imageSize": "Images should be < 100kb to optimize how fast the page loads for SEO purposes. Images over 100kb will be tagged with their size.",
         "imageAlt": "Images should have descriptive alt text that ideally matches the content on the page.",
         "contentLength": "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose."
@@ -26,34 +26,6 @@
             }
         },
         "https://relayhub.com/solutions/": {
-            "metaTags": {
-                "title": "Medicaid Software Solutions: Streamlined & Simplified | Relay",
-                "description": "Thousands of schools across the country trust Relay to be their partner & choose its school-based Medicaid solution - find out why!"
-            },
-            "contentLength": 4753,
-            "h1Count": 17,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Group-33607.svg": {
-                    "alt": ""
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Automated_Integrations_Graphic-1.svg": {
-                    "alt": "Automated_Integrations_Graphic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Group-33560.svg": {
-                    "alt": ""
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Reduce_Data_Entry_Graphic-1.svg": {
-                    "alt": "Reduce_Data_Entry_Graphic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/solutions/#services": {
             "metaTags": {
                 "title": "Medicaid Software Solutions: Streamlined & Simplified | Relay",
                 "description": "Thousands of schools across the country trust Relay to be their partner & choose its school-based Medicaid solution - find out why!"
@@ -114,50 +86,6 @@
             }
         },
         "https://relayhub.com/our-approach/": {
-            "metaTags": {
-                "title": "Our Approach | Relay",
-                "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
-            },
-            "contentLength": 1347,
-            "h1Count": 8,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Product_framework_infographic.svg": {
-                    "alt": "Product Framework Infographic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Guiding-principles.svg": {
-                    "alt": "guiding_principles_graphic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/our-approach/#product-framework": {
-            "metaTags": {
-                "title": "Our Approach | Relay",
-                "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
-            },
-            "contentLength": 1347,
-            "h1Count": 8,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Product_framework_infographic.svg": {
-                    "alt": "Product Framework Infographic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Guiding-principles.svg": {
-                    "alt": "guiding_principles_graphic"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/our-approach/#guiding-principles": {
             "metaTags": {
                 "title": "Our Approach | Relay",
                 "description": "Learn more about our approach which rests on the idea that school-based Medicaid is more than just claiming!"
@@ -350,22 +278,6 @@
                 }
             }
         },
-        "https://relayhub.com/your-district/#choose": {
-            "metaTags": {
-                "title": "School-based Medicaid in your State - Find Your District | Relay",
-                "description": "School-based Medicaid workflows are different in each state & that is why you need Relay! We understand the nuances in your district - contact us!"
-            },
-            "contentLength": 1349,
-            "h1Count": 7,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
         "https://relayhub.com/category/webinars": {
             "metaTags": {
                 "title": "Webinar Archives | Relay",
@@ -410,99 +322,6 @@
                 }
             }
         },
-        "https://relayhub.com/about/#story": {
-            "metaTags": {
-                "title": "About Us | Relay",
-                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
-            },
-            "contentLength": 2403,
-            "h1Count": 9,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
-                    "alt": "psni-logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
-                    "alt": "PowerSchool Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
-                    "alt": "Lumen Touch Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
-                    "alt": "dotcom therapy logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
-                    "alt": "bhworks logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/about/#partners": {
-            "metaTags": {
-                "title": "About Us | Relay",
-                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
-            },
-            "contentLength": 2403,
-            "h1Count": 9,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
-                    "alt": "psni-logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
-                    "alt": "PowerSchool Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
-                    "alt": "Lumen Touch Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
-                    "alt": "dotcom therapy logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
-                    "alt": "bhworks logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/about/#careers": {
-            "metaTags": {
-                "title": "About Us | Relay",
-                "description": "How can we help you? Request a piece of information or the status of your subscription, or tell us your opinions & experiences with our product!"
-            },
-            "contentLength": 2403,
-            "h1Count": 9,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
-                    "alt": "psni-logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
-                    "alt": "PowerSchool Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
-                    "alt": "Lumen Touch Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
-                    "alt": "dotcom therapy logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
-                    "alt": "bhworks logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
         "https://relayhub.com/privacy-policy/": {
             "metaTags": {
                 "title": "Privacy Policy | Relay",
@@ -513,38 +332,6 @@
             "images": {
                 "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
                     "alt": "Relay Logo"
-                }
-            }
-        },
-        "https://relayhub.com/product-offering/#supported-billing": {
-            "metaTags": {
-                "title": "School-Based Medicaid Software Subscriptions | Relay",
-                "description": "At Relay, we offer different school-based Medicaid software subscription levels, so you can decide the right fit for your district! Explore more!"
-            },
-            "contentLength": 2234,
-            "h1Count": 7,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
-                }
-            }
-        },
-        "https://relayhub.com/product-offering/#platform-subscription": {
-            "metaTags": {
-                "title": "School-Based Medicaid Software Subscriptions | Relay",
-                "description": "At Relay, we offer different school-based Medicaid software subscription levels, so you can decide the right fit for your district! Explore more!"
-            },
-            "contentLength": 2234,
-            "h1Count": 7,
-            "images": {
-                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
-                    "alt": "Relay Logo"
-                },
-                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
-                    "alt": ""
                 }
             }
         },
@@ -616,7 +403,7 @@
                 "https://relayhub.com/wp-content/uploads/2023/03/shutterstock_1606120330.jpg": {
                     "alt": "Time to Switch Your School Medicaid Vendor",
                     "over100kb": {
-                        "size": "549 KB"
+                        "size": "506 KB"
                     }
                 }
             }
@@ -660,7 +447,7 @@
                 "https://relayhub.com/wp-content/uploads/2023/01/Iowa-Medicaid-Coverage-Example.png": {
                     "alt": "Iowa Medicaid Coverage Example",
                     "over100kb": {
-                        "size": "173 KB"
+                        "size": "219 KB"
                     }
                 },
                 "https://relayhub.com/wp-content/uploads/2023/01/Utah-Billing-Example.png": {
