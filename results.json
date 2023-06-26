@@ -1,0 +1,783 @@
+{
+    "SEOComments": {
+        "h1": "Ideally there should be 1 <h1> per page that matches SEO keywords/meta tags.",
+        "imageSize": "Images should be < 100kb to optimize how fast the page loads for SEO purposes.",
+        "imageAlt": "Images should have descriptive alt text that ideally matches the content on the page.",
+        "contentLength": "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose."
+    },
+    "urls": {
+        "https://relayhub.com/": {
+            "contentLength": 1806,
+            "h1": 13,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/CC_logo.svg": {
+                    "alt": "CompuClaim Logo"
+                }
+            }
+        },
+        "https://relayhub.com/solutions/": {
+            "contentLength": 4753,
+            "h1": 17,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Group-33607.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Automated_Integrations_Graphic-1.svg": {
+                    "alt": "Automated_Integrations_Graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Group-33560.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Reduce_Data_Entry_Graphic-1.svg": {
+                    "alt": "Reduce_Data_Entry_Graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/solutions/#services": {
+            "contentLength": 4753,
+            "h1": 17,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Group-33607.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Automated_Integrations_Graphic-1.svg": {
+                    "alt": "Automated_Integrations_Graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Group-33560.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Reduce_Data_Entry_Graphic-1.svg": {
+                    "alt": "Reduce_Data_Entry_Graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/product-offering/": {
+            "contentLength": 2234,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/your-district/": {
+            "contentLength": 1349,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/our-approach/": {
+            "contentLength": 1347,
+            "h1": 8,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Product_framework_infographic.svg": {
+                    "alt": "Product Framework Infographic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Guiding-principles.svg": {
+                    "alt": "guiding_principles_graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/our-approach/#product-framework": {
+            "contentLength": 1347,
+            "h1": 8,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Product_framework_infographic.svg": {
+                    "alt": "Product Framework Infographic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Guiding-principles.svg": {
+                    "alt": "guiding_principles_graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/our-approach/#guiding-principles": {
+            "contentLength": 1347,
+            "h1": 8,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Product_framework_infographic.svg": {
+                    "alt": "Product Framework Infographic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Guiding-principles.svg": {
+                    "alt": "guiding_principles_graphic"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/resource-hub/": {
+            "contentLength": 1652,
+            "h1": 15,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/blogs/": {
+            "contentLength": 2080,
+            "h1": 19,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/news/": {
+            "contentLength": 1145,
+            "h1": 14,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/webinars/": {
+            "contentLength": 583,
+            "h1": 12,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/faqs/": {
+            "contentLength": 6517,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/get-a-demo/": {
+            "contentLength": 137,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/blogs//": {
+            "contentLength": 2080,
+            "h1": 19,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/news//": {
+            "contentLength": 1145,
+            "h1": 14,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/category/webinars//": {
+            "contentLength": 583,
+            "h1": 12,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/resources/": {
+            "contentLength": 32,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/compuclaim-is-now-relay/": {
+            "contentLength": 3045,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/NEWS-Now-Relay.png": {
+                    "alt": "CompuClaim is now Relay"
+                }
+            }
+        },
+        "https://relayhub.com/contact-us/": {
+            "contentLength": 123,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/support/": {
+            "contentLength": 54,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/your-district/#choose": {
+            "contentLength": 1349,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/category/webinars": {
+            "contentLength": 583,
+            "h1": 12,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/about/": {
+            "contentLength": 2403,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
+                    "alt": "psni-logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
+                    "alt": "PowerSchool Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
+                    "alt": "Lumen Touch Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
+                    "alt": "dotcom therapy logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
+                    "alt": "bhworks logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/about/#story": {
+            "contentLength": 2403,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
+                    "alt": "psni-logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
+                    "alt": "PowerSchool Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
+                    "alt": "Lumen Touch Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
+                    "alt": "dotcom therapy logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
+                    "alt": "bhworks logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/about/#partners": {
+            "contentLength": 2403,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
+                    "alt": "psni-logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
+                    "alt": "PowerSchool Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
+                    "alt": "Lumen Touch Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
+                    "alt": "dotcom therapy logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
+                    "alt": "bhworks logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/about/#careers": {
+            "contentLength": 2403,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/psni-logo.png": {
+                    "alt": "psni-logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/PowerSchool_Logo.svg": {
+                    "alt": "PowerSchool Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Lumen-Touch-Logo.svg": {
+                    "alt": "Lumen Touch Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/dotcom_theraapy_logo.png": {
+                    "alt": "dotcom therapy logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/bhworks-logo.png": {
+                    "alt": "bhworks logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/privacy-policy/": {
+            "contentLength": 3785,
+            "h1": 15,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/product-offering/#supported-billing": {
+            "contentLength": 2234,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/product-offering/#platform-subscription": {
+            "contentLength": 2234,
+            "h1": 7,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/5-signs-its-time-to-switch-your-medicaid-vendor/": {
+            "contentLength": 4948,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/writing-help-e1643665291301.png": {
+                    "alt": "Teacher helping student at desk",
+                    "over100kb": {
+                        "size": "225 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/how-to-increase-service-logging-for-school-based-medicaid-webinar/": {
+            "contentLength": 518,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/shutterstock_1686670861.jpg": {
+                    "alt": "Increase Service Provider Logging"
+                }
+            }
+        },
+        "https://relayhub.com/embracing-technology-in-school-based-medicaid-workflows/": {
+            "contentLength": 4577,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2023/06/Embrace-School-Based-Medicaid-Technology.jpg": {
+                    "alt": "Embrace School Based Medicaid Technology",
+                    "over100kb": {
+                        "size": "178 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/school-medicaid-billing-headaches-why-school-districts-need-to-rethink-their-approach/": {
+            "contentLength": 7166,
+            "h1": 11,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2023/03/shutterstock_1606120330.jpg": {
+                    "alt": "Time to Switch Your School Medicaid Vendor",
+                    "over100kb": {
+                        "size": "549 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/7-school-medicaid-inefficiencies-and-how-to-eliminate-them/": {
+            "contentLength": 4313,
+            "h1": 17,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2023/03/shutterstock_88288024-1.jpg": {
+                    "alt": "Save Time on School Medicaid Billing",
+                    "over100kb": {
+                        "size": "621 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/school-medicaid-coverage-and-billing-by-state/": {
+            "contentLength": 3207,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/12/shutterstock_258017072-scaled.jpg": {
+                    "alt": "",
+                    "over100kb": {
+                        "size": "423 KB"
+                    }
+                },
+                "https://relayhub.com/wp-content/uploads/2023/01/Iowa-Medicaid-Coverage-Example.png": {
+                    "alt": "Iowa Medicaid Coverage Example",
+                    "over100kb": {
+                        "size": "173 KB"
+                    }
+                },
+                "https://relayhub.com/wp-content/uploads/2023/01/Utah-Billing-Example.png": {
+                    "alt": "Utah Medicaid Billing Example",
+                    "over100kb": {
+                        "size": "176 KB"
+                    }
+                },
+                "https://relayhub.com/wp-content/uploads/2023/01/California-Medicaid-Snapshot-Example.png": {
+                    "alt": "California Medicaid Snapshot Example"
+                }
+            }
+        },
+        "https://relayhub.com/school-medicaid-is-complexbut-hope-is-on-the-horizon/": {
+            "contentLength": 1255,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/11/NAME-Blog-Photo-1.png": {
+                    "alt": "NAME Conference on School Medicaid",
+                    "over100kb": {
+                        "size": "290 KB"
+                    }
+                },
+                "https://relayhub.com/wp-content/uploads/2022/11/1.png": {
+                    "alt": "School Based Medicaid Word Cloud"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/11/2.png": {
+                    "alt": "School Medicaid Current Trends"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/11/managingchancereplace.png": {
+                    "alt": "How effective is your team managing change in School Medicaid?"
+                }
+            }
+        },
+        "https://relayhub.com/school-based-medicaid-3-ways-to-create-a-partnered-approach-between-service-providers-and-districts/": {
+            "contentLength": 4527,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Speech-Therapist-980x490-1.jpg": {
+                    "alt": "Speech-Therapist"
+                },
+                "https://no-cache.hubspot.com/cta/default/252158/73e11189-ea11-4ba7-bb3b-4f5e75852b3a.png": {
+                    "alt": "Save Your Spot!"
+                }
+            }
+        },
+        "https://relayhub.com/our-top-5-resources-for-special-education-administrators/": {
+            "contentLength": 1671,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Top-Resources-for-Special-Educations-Administrators-980x551-1.jpg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/mental-health-and-school-based-medicaid/": {
+            "contentLength": 4646,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Mental-Health-and-School-Based-Medicaid-Blog-980x551-1.jpg": {
+                    "alt": "Mental-Health-and-School-Based-Medicaid"
+                }
+            }
+        },
+        "https://relayhub.com/increase-your-school-based-medicaid-iq-in-3-easy-steps/": {
+            "contentLength": 4501,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Increase-Medicaid-IQ-1-980x551-1.png": {
+                    "alt": "Increase-Medicaid-IQ-",
+                    "over100kb": {
+                        "size": "205 KB"
+                    }
+                },
+                "https://www.compuclaim.com/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors/plugins/emoticons/img/smiley-cool.gif": {
+                    "alt": "cool"
+                }
+            }
+        },
+        "https://relayhub.com/how-to-manage-medicaid-administrator-transitions/": {
+            "contentLength": 4566,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Compuclaim-Transf-Blog-e1645796392272.jpg": {
+                    "alt": "Couple having a conversation at the table"
+                }
+            }
+        },
+        "https://relayhub.com/the-basics-of-billing-medicaid-for-school-based-services/": {
+            "contentLength": 5339,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Blog-Image-CC-e1644596580222.jpg": {
+                    "alt": "Teacher grading papers at a desk"
+                }
+            }
+        },
+        "https://relayhub.com/category/blogs/page/2/": {
+            "contentLength": 634,
+            "h1": 12,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                }
+            }
+        },
+        "https://relayhub.com/compuclaim-announces-achievement-of-nist-ncsp-practitioner-certification/": {
+            "contentLength": 1402,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/NCSP-Security-e1579704235223.jpg": {
+                    "alt": "NCSP-Security"
+                }
+            }
+        },
+        "https://relayhub.com/compuclaim-and-the-texas-association-of-school-boards-announce-release-of-tasb-smart-solutionstm-powered-by-compuclaim/": {
+            "contentLength": 1131,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/shutterstock_2117680211.jpg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://relayhub.com/new-joint-partnership-from-compuclaim-greenbush-and-lumen-touch-delivers-all-in-one-special-education-management-solution/": {
+            "contentLength": 934,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2021/02/Kids-Playing-800x675-1.jpg": {
+                    "alt": "Kids playing",
+                    "over100kb": {
+                        "size": "107 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/webinar-content-medicaid-101/": {
+            "contentLength": 295,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/07/Webinar-School-based-Medicaid.png": {
+                    "alt": "Webinar - School based Medicaid",
+                    "over100kb": {
+                        "size": "208 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com/webinar-content-student-privacy/": {
+            "contentLength": 336,
+            "h1": 10,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/07/Webinar-tips-and-tricks.png": {
+                    "alt": "Webinar - tips and tricks",
+                    "over100kb": {
+                        "size": "228 KB"
+                    }
+                }
+            }
+        },
+        "https://relayhub.com": {
+            "contentLength": 1806,
+            "h1": 13,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/09/Relay_Bars.svg": {
+                    "alt": ""
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/CC_logo.svg": {
+                    "alt": "CompuClaim Logo"
+                }
+            }
+        },
+        "https://relayhub.com/managing-the-exponential-growth-of-data-in-your-organization/": {
+            "contentLength": 2593,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/compuclaim_flex_analytics_social_001-1-1080x675-1.jpg": {
+                    "alt": "Flex Analytics graphic"
+                },
+                "https://www.compuclaim.com/wp-content/uploads/2020/10/JT-FA-Blog-1.jpg": {
+                    "alt": ""
+                }
+            }
+        },
+        "https://landingpage.relayhub.com/en/en/beginners-guide-to-medicaid-data": {
+            "contentLength": 987,
+            "h1": 1,
+            "images": {
+                "https://252158.fs1.hubspotusercontent-na1.net/hub/252158/hubfs/Relay_primary_on_white_web.png?width=234&name=Relay_primary_on_white_web.png": {
+                    "alt": "Relay_primary_on_white_web"
+                },
+                "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Marketing%20Starter/check_blue-bg.png": {}
+            }
+        },
+        "https://landingpage.relayhub.com/webinar-medicaidevaluation": {
+            "contentLength": 854,
+            "h1": 1,
+            "images": {
+                "https://252158.fs1.hubspotusercontent-na1.net/hub/252158/hubfs/Relay_primary_on_white_web.png?width=234&name=Relay_primary_on_white_web.png": {
+                    "alt": "Relay_primary_on_white_web"
+                },
+                "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Marketing%20Starter/check_blue-bg.png": {}
+            }
+        },
+        "https://relayhub.com/the-impact-of-covid-19-and-medicaid-what-weve-learned/": {
+            "contentLength": 3779,
+            "h1": 9,
+            "images": {
+                "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg": {
+                    "alt": "Relay Logo"
+                },
+                "https://relayhub.com/wp-content/uploads/2022/10/Elbow-bump-e1643665103280-1.png": {
+                    "alt": "girl gives elbow bump",
+                    "over100kb": {
+                        "size": "208 KB"
+                    }
+                }
+            }
+        }
+    }
+}
