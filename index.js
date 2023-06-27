@@ -89,7 +89,19 @@ const getImage = async (url) => {
         obj[imgUrl] = {};
         obj[imgUrl]['alt'] = imgAlt;
     
-        let size = await getSize(imgUrl) || "";
+        let size, uniqueImages = 1;
+        if (obj[imgUrl]) {
+            if (obj[imgUrl]['over100kb']) {
+                size = obj[imgUrl]['over100kb']['size'];
+            } else {
+                size = 0;
+            }
+        } else {
+            uniqueImages += 1;
+            console.log(`Unique Image #: ${uniqueImages}`);
+            size = await getSize(imgUrl) || "";
+        }
+
         if (size >= 100000) {
             size = Math.round(size / 1000);
             size = size.toString() + " KB";
@@ -138,10 +150,11 @@ app.get('/scrape', async (req, res) => {
     try {
         let memo = { SEOComments: {}, urls: { 'https://relayhub.com/' : {} } };
         memo['SEOComments'] = {
+            targetKeyword: "Ensure your target keyword appears in the title tag, meta description, headings (H1, H2, etc.), and image alt tags.",
+            contentLength: "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose.",
             h1: "Ideally there should be one <h1> per page that matches SEO keywords/meta tags.",
             imageSize: "Images should be < 100kb to optimize how fast the page loads for SEO purposes. Images over 100kb will be tagged with their size.",
             imageAlt: "Images should have descriptive alt text that ideally matches the content on the page.",
-            contentLength: "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose."
         }
         let result = await scrapeByUrl(memo, 0);
         res.json(result);
