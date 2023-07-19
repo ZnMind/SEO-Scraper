@@ -2,7 +2,7 @@ const express = require('express');
 const cheerio = require('cheerio');
 const cors = require('cors');
 
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 const app = express();
 app.use(cors());
@@ -15,7 +15,7 @@ const scrapeByUrl = async (memo, index) => {
         let response = await fetch(url);
         let body = await response.text();
         let $ = cheerio.load(body);
-    
+
         $('a').map((i, el) => {
             let link = $(el).attr('href');
             if (!array.includes(link) && link !== undefined && !link.includes('#') && (link.includes('https://relayhub.com') || link.includes('https://landingpage.relayhub.com'))) {
@@ -27,10 +27,11 @@ const scrapeByUrl = async (memo, index) => {
         memo.urls[url]['metaTags'] = metas;
 
         let contentLength = await getContentLength(url);
-        memo.urls[url]['contentLength'] = contentLength;
+        memo.urls[url]['contentLength'] = contentLength[0];
+        memo.urls[url]['keywords'] = contentLength[1];
 
-        let h1Counter = await getH1(url);
-        memo.urls[url]['h1Count'] = h1Counter;
+        let headers = await getH1(url);
+        memo.urls[url]['headers'] = headers;
 
         let images = await getImage(url);
         memo.urls[url]['images'] = images;
@@ -49,18 +50,34 @@ const getContentLength = async (url) => {
     let response = await fetch(url);
     let body = await response.text();
     let $ = cheerio.load(body);
-    
+
     let whatToCount = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p'];
-    let count = 0;
-    whatToCount.forEach(x =>  $(x).map((i, el) => {
+    let exclusions = ['to', 'and', 'with', 'the', 'of',
+        'our', 'your', 'is', 'in', 'we',
+        'a', 'be', 'as', 'are', 'you',
+        'should', 'this', 'or', 'their', 'they',
+        'have', 'by', 'for', 'that', 'can'];
+    let count = 0, keywords = {}, result = {};
+
+    whatToCount.forEach(x => $(x).map((i, el) => {
         if (el.children.length > 0) {
             if (el.children[0].data !== undefined) {
                 count += el.children[0].data.length;
+                el.children[0].data.split(" ").forEach(y => {
+                    y = y.toLowerCase();
+                    if (!exclusions.includes(y)) {
+                        keywords[y] = (keywords[y] || 0) + 1
+                    }
+                })
             }
         }
     }))
+
+    Object.keys(keywords).sort((a, b) => keywords[b] - keywords[a]).slice(0, 5).forEach(x => result[x] = keywords[x]);
+
     console.log(`Length: ${count}`);
-    return count;
+    console.log(result);
+    return [count, result];
 }
 
 const getH1 = async (url) => {
@@ -68,12 +85,21 @@ const getH1 = async (url) => {
     let body = await response.text();
     let $ = cheerio.load(body);
 
-    let count = 0;
-    $('h1').map(() => {
-        count += 1; 
-    });
+    let count = 0, count2 = 0, headers = { 'h1': {}, 'h2': {}, 'h3': {}, 'h4': {}, 'h5': {}, 'h6': {}, };
+    Object.keys(headers).forEach(x => {
+        $(x).map((i, el) => {
+            count += 1;
+            if (el.children.length > 0) {
+                headers[x][count] = el.children[0].data;
+            } else {
+                headers[x][count] = `~~~ Empty ${x} ~~~`
+            }
+        })
+        count = 0;
+    })
 
-    return count;
+    console.log(headers);
+    return headers;
 };
 
 const getImage = async (url) => {
@@ -82,34 +108,40 @@ const getImage = async (url) => {
     let $ = cheerio.load(body);
     let obj = {};
 
-    await Promise.allSettled($('img').map( async (i, el) => {
+    let results = await Promise.allSettled($('img').map(async (i, el) => {
         let imgUrl = $(el).attr('src');
         let imgAlt = $(el).attr('alt');
         console.log(imgAlt);
-        obj[imgUrl] = {};
-        obj[imgUrl]['alt'] = imgAlt;
-    
-        let size, uniqueImages = 1;
+
+        let size;
         if (obj[imgUrl]) {
+            obj[imgUrl]['alt'] = imgAlt;
             if (obj[imgUrl]['over100kb']) {
                 size = obj[imgUrl]['over100kb']['size'];
             } else {
                 size = 0;
             }
         } else {
-            uniqueImages += 1;
-            console.log(`Unique Image #: ${uniqueImages}`);
-            size = await getSize(imgUrl) || "";
+            obj[imgUrl] = {};
+            obj[imgUrl]['alt'] = imgAlt;
+            size = await getSize(imgUrl);
+            console.log(size);
         }
 
-        if (size >= 100000) {
+        if (size >= 10000) {
             size = Math.round(size / 1000);
             size = size.toString() + " KB";
             console.log(size);
-            obj[imgUrl]['over100kb'] = { size: size };
+            obj[imgUrl] = { size: size };
         }
     }))
-    
+
+    console.log(results);
+    let rejected = results.filter(res => res.status === 'rejected').map(res => {
+        console.log("Rejected-123", res);
+        obj['Rejections'] = res;
+    });
+
     return obj;
 }
 
@@ -120,7 +152,7 @@ const getSize = async (url) => {
     if (filter.length > 0) {
         [, size] = filter[0];
     }
-    
+
     return size;
 };
 
@@ -136,7 +168,7 @@ const getMeta = async (url) => {
         }
         if (el.attribs.property === 'og:title') {
             title = el.attribs.content;
-        }       
+        }
     })
     console.log(title, description);
     return { title: title, description: description };
@@ -148,7 +180,7 @@ app.get('/', (req, res) => {
 
 app.get('/scrape', async (req, res) => {
     try {
-        let memo = { SEOComments: {}, urls: { 'https://relayhub.com/' : {} } };
+        let memo = { SEOComments: {}, urls: { 'https://relayhub.com/': {} } };
         memo['SEOComments'] = {
             targetKeyword: "Ensure your target keyword appears in the title tag, meta description, headings (H1, H2, etc.), and image alt tags.",
             contentLength: "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose.",
@@ -165,7 +197,7 @@ app.get('/scrape', async (req, res) => {
 
 app.get('/image', async (req, res) => {
     try {
-        let result = await getImage('https://relayhub.com/school-medicaid-coverage-and-billing-by-state/');
+        let result = await getImage('https://relayhub.com/increase-your-school-based-medicaid-iq-in-3-easy-steps/');
         console.log(result);
         res.json(result);
     } catch (error) {

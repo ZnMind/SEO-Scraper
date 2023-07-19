@@ -1,0 +1,101 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://relayhub.com/",
+            "url": "https://relayhub.com/",
+            "name": "Medicaid School Based Services & Workflow Solution | Relay",
+            "isPartOf": {
+                "@id": "https://relayhub.com/#website"
+            },
+            "about": {
+                "@id": "https://relayhub.com/#organization"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://relayhub.com/#primaryimage"
+            },
+            "image": {
+                "@id": "https://relayhub.com/#primaryimage"
+            },
+            "thumbnailUrl": "https://relayhub.com/wp-content/uploads/2022/10/CC_logo.svg",
+            "datePublished": "2022-09-21T21:11:28+00:00",
+            "dateModified": "2023-06-22T15:06:21+00:00",
+            "description": "Welcome to Relay Medicaid school-based services. We make it easy for schools to access Medicaid funding & automate their administrative processes!",
+            "breadcrumb": {
+                "@id": "https://relayhub.com/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://relayhub.com/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://relayhub.com/#primaryimage",
+            "url": "https://relayhub.com/wp-content/uploads/2022/10/CC_logo.svg",
+            "contentUrl": "https://relayhub.com/wp-content/uploads/2022/10/CC_logo.svg",
+            "caption": "CompuClaim Logo"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://relayhub.com/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home"
+                }
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://relayhub.com/#website",
+            "url": "https://relayhub.com/",
+            "name": "Relay",
+            "description": "Help Your School Based Medicaid Team Run Faster",
+            "publisher": {
+                "@id": "https://relayhub.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://relayhub.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://relayhub.com/#organization",
+            "name": "Relay",
+            "url": "https://relayhub.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://relayhub.com/#/schema/logo/image/",
+                "url": "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg",
+                "contentUrl": "https://relayhub.com/wp-content/uploads/2022/09/RelayLogo.svg",
+                "caption": "Relay"
+            },
+            "image": {
+                "@id": "https://relayhub.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+                "https://www.facebook.com/pages/Compuclaim/314913695302137",
+                "https://www.youtube.com/channel/UCFigWy8mYnp-lPrZ2NsY0ZQ",
+                "https://www.linkedin.com/company/compuclaim/"
+            ]
+        }
+    ]
+}
