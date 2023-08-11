@@ -23,18 +23,27 @@ const scrapeByUrl = async (memo, index) => {
             }
         });
 
-        let metas = await getMeta(url);
+        let metas = await getMeta($);
         memo.urls[url]['metaTags'] = metas;
 
-        let contentLength = await getContentLength(url);
+        let contentLength = await getContentLength($);
         memo.urls[url]['contentLength'] = contentLength[0];
-        memo.urls[url]['keywords'] = contentLength[1];
+        memo.urls[url]['topUsedWords'] = contentLength[1];
 
-        let headers = await getH1(url);
+        let headers = await getHeaders($);
         memo.urls[url]['headers'] = headers;
+        console.log(headers);
+        if (Object.keys(headers.error).length > 0) {
+            memo.errors[url] = {};
+            memo.errors[url]['headers'] = headers.error;
+        }
 
-        let images = await getImage(url);
-        memo.urls[url]['images'] = images;
+        let images = await getImage($);
+        memo.urls[url]['images'] = images.object;
+        if (Object.keys(images.error).length > 0) {
+            if (memo.errors[url] === undefined) memo.errors[url] = {};
+            memo.errors[url]['images'] = images.error;
+        }
 
         if (index < Object.keys(memo.urls).length - 1) {
             await scrapeByUrl(memo, index + 1);
@@ -46,11 +55,21 @@ const scrapeByUrl = async (memo, index) => {
     }
 };
 
-const getContentLength = async (url) => {
-    let response = await fetch(url);
-    let body = await response.text();
-    let $ = cheerio.load(body);
+const getMeta = async ($) => {
+    let title, description;
+    $('meta').map((i, el) => {
+        if (el.attribs.name === 'description') {
+            description = el.attribs.content;
+        }
+        if (el.attribs.property === 'og:title') {
+            title = el.attribs.content;
+        }
+    })
+    console.log(title, description);
+    return { title: title, description: description };
+};
 
+const getContentLength = async ($) => {
     let whatToCount = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p'];
     let exclusions = ['to', 'and', 'with', 'the', 'of',
         'our', 'your', 'is', 'in', 'we',
@@ -80,59 +99,61 @@ const getContentLength = async (url) => {
     return [count, result];
 }
 
-const getH1 = async (url) => {
-    let response = await fetch(url);
-    let body = await response.text();
-    let $ = cheerio.load(body);
-
-    let count = 0, count2 = 0, headers = { 'h1': {}, 'h2': {}, 'h3': {}, 'h4': {}, 'h5': {}, 'h6': {}, };
+const getHeaders = async ($) => {
+    let count = 0, headers = { 'h1': {}, 'h2': {}, 'h3': {}, 'h4': {}, 'h5': {}, 'h6': {}, }, err = {};
     Object.keys(headers).forEach(x => {
         $(x).map((i, el) => {
             count += 1;
             if (el.children.length > 0) {
                 headers[x][count] = el.children[0].data;
+                if (x === 'h1' && count > 1) {
+                    err[`tooMany${x.toUpperCase()}`] = {};
+                    err[`tooMany${x.toUpperCase()}`][count] = el.children[0].data;
+                }
             } else {
-                headers[x][count] = `~~~ Empty ${x} ~~~`
+                headers[x][count] = `~~~ Empty ${x} ~~~`;
+                err[`empty${x.toUpperCase()}`] = {};
+                err[`empty${x.toUpperCase()}`][count] = `~~~ Empty ${x} ~~~`;
             }
         })
         count = 0;
     })
 
     console.log(headers);
-    return headers;
+    return { headers: headers, error: err };
 };
 
-const getImage = async (url) => {
-    let response = await fetch(url);
-    let body = await response.text();
-    let $ = cheerio.load(body);
-    let obj = {};
-
+const getImage = async ($) => {
+    let obj = {}, err = {};
     let results = await Promise.allSettled($('img').map(async (i, el) => {
         let imgUrl = $(el).attr('src');
         let imgAlt = $(el).attr('alt');
         console.log(imgAlt);
-
-        let size;
-        if (obj[imgUrl]) {
-            obj[imgUrl]['alt'] = imgAlt;
-            if (obj[imgUrl]['over100kb']) {
-                size = obj[imgUrl]['over100kb']['size'];
-            } else {
-                size = 0;
-            }
-        } else {
-            obj[imgUrl] = {};
-            obj[imgUrl]['alt'] = imgAlt;
-            size = await getSize(imgUrl);
-            console.log(size);
+        if (imgAlt === "") {
+            if (err[imgUrl] === undefined) err[imgUrl] = {};
+            err[imgUrl]['alt'] = imgAlt;
         }
 
+        let size;
+        obj[imgUrl] = {};
+        obj[imgUrl]['alt'] = imgAlt;
+        size = await getSize(imgUrl);
+        console.log(size);
+
         if (size >= 10000) {
-            size = Math.round(size / 1000);
-            size = size.toString() + " KB";
-            console.log(size);
-            obj[imgUrl] = { size: size };
+            let temp = Math.round(size / 1000);
+            temp = temp.toString() + " KB";
+            console.log(temp);
+            obj[imgUrl]['size'] = temp;
+        } else {
+            obj[imgUrl]['size'] = "< 10KB"
+        }
+
+        if (size >= 100000) {
+            if (err[imgUrl] === undefined) err[imgUrl] = {};
+            let temp = Math.round(size / 1000);
+            temp = temp.toString() + " KB";
+            err[imgUrl]['size'] = temp;
         }
     }))
 
@@ -142,7 +163,7 @@ const getImage = async (url) => {
         obj['Rejections'] = res;
     });
 
-    return obj;
+    return {object: obj, error: err};
 }
 
 const getSize = async (url) => {
@@ -152,36 +173,24 @@ const getSize = async (url) => {
     if (filter.length > 0) {
         [, size] = filter[0];
     }
-
     return size;
 };
 
-const getMeta = async (url) => {
-    let response = await fetch(url);
-    let body = await response.text();
-    let $ = cheerio.load(body);
-
-    let title, description;
-    $('meta').map((i, el) => {
-        if (el.attribs.name === 'description') {
-            description = el.attribs.content;
-        }
-        if (el.attribs.property === 'og:title') {
-            title = el.attribs.content;
-        }
-    })
-    console.log(title, description);
-    return { title: title, description: description };
-}
-
 app.get('/', (req, res) => {
-    res.json({ status: "Server is working" });
+    let ms = Date.now();
+    let date = new Date(ms);
+    date = date.toString();
+    console.log(date);
+    res.json({ status: `We running baby ${date}` });
 })
 
 app.get('/scrape', async (req, res) => {
+    let ms = Date.now();
+    let date = new Date(ms);
+    date = date.toString();
     try {
-        let memo = { SEOComments: {}, urls: { 'https://relayhub.com/': {} } };
-        memo['SEOComments'] = {
+        let memo = { scrapeDate: date, dansFunSEOComments: {}, siteMap: 'https://relayhub.com/sitemap_index.xml', urls: { 'https://relayhub.com/': {} }, errors: {} };
+        memo['dansFunSEOComments'] = {
             targetKeyword: "Ensure your target keyword appears in the title tag, meta description, headings (H1, H2, etc.), and image alt tags.",
             contentLength: "Google recommends each page have at least 300 words so crawlers can get a clear idea of its purpose.",
             h1: "Ideally there should be one <h1> per page that matches SEO keywords/meta tags.",
